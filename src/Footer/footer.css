@@ -1,0 +1,27 @@
+.disclaimer_premium{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    background: linear-gradient(to right, #ae2898, #4f9bf3);
+    width: 97vw;
+    padding: 15px 40px;
+}
+
+div.text{
+    color: white;
+}
+
+div.text > .title{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.disclaimer_button > button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+    border: 0px;
+    font-weight: 600;
+}
